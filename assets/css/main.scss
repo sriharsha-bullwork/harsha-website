@@ -9,7 +9,7 @@ search: false
 @import "minimal-mistakes"; // main partials
 // Custom font size overrides
 body {
-    font-size: 14px; // Set a smaller base font size
+    font-size: 16px; // Set a smaller base font size
   }
   
   h1, h2, h3, h4, h5, h6 {
@@ -17,6 +17,6 @@ body {
   }
   
   .post-content {
-    font-size: 14px; // Override font size for post content
+    font-size: 16px; // Override font size for post content
   }
   
