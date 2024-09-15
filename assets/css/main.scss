@@ -7,3 +7,16 @@ search: false
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+// Custom font size overrides
+body {
+    font-size: 14px; // Set a smaller base font size
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-size: inherit; // Ensure headings are scaled down
+  }
+  
+  .post-content {
+    font-size: 14px; // Override font size for post content
+  }
+  
