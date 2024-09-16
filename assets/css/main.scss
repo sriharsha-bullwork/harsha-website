@@ -20,3 +20,16 @@ body {
     font-size: 16px; // Override font size for post content
   }
   
+
+  // Custom line height overrides
+body {
+  line-height: 1.75; // Increase line height for the entire site
+}
+
+.post-content {
+  line-height: 1.8; // Specific line height for post content
+}
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1.4; // Adjust line height for headings
+}
