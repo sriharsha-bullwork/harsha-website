@@ -109,6 +109,9 @@ analytics:
   google:
     tracking_id:
     anonymize_ip: # true, false (default)
+# assets:
+#   stylesheets:
+#     - "/assets/css/main.scss"
 
 # Site Author
 author:
@@ -313,4 +316,3 @@ defaults:
       comments: # true
       share: true
       related: true
-      navigation: false
